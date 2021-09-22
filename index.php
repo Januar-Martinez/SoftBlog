@@ -29,12 +29,23 @@ endif;
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <title>SoftBlog</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
-<body style="background-image: url('');">
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+<body>
+    <div class="login-box">
+      <img src="//img/logo.png" class="avatar" alt="Avatar Image">
+      <h1>SoftBlog</h1>
+      <form>
+        <!-- USERNAME INPUT -->
+        <label for="username">Email</label>
+        <input type="text" placeholder="Alguien@softblog.com">
+        <!-- PASSWORD INPUT -->
+        <label for="password">Contraseña</label>
+        <input type="password" placeholder="Escribe La Contraseña">
+        <input type="submit" value="Iniciar Sesión">
+        <a href="#">Resgistrarse</a>
+      </form>
+    </div>
 </body>
 </html>
