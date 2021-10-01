@@ -30,11 +30,12 @@ endif;
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SoftBlog</title>
+    <link rel="icon" type="image/png" href="img/logo.png">
     <link rel="stylesheet" href="master.css">
 </head>
 <body>
     <div class="login-box">
-      <img src="//img/logo.png" class="avatar" alt="Avatar Image">
+      <img src="img/logo.png" class="avatar" alt="Avatar Image">
       <h1>SoftBlog</h1>
       <form>
         <!-- USERNAME INPUT -->
