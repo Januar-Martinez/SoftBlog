@@ -30,23 +30,29 @@ endif;
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SoftBlog</title>
-    <link rel="icon" type="image/png" href="img/logo.png">
+    <link rel="icon" type="image/png" href="img/favicon.png">
     <link rel="stylesheet" href="master.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
 </head>
 <body>
     <div class="login-box">
       <img src="img/logo.png" class="avatar" alt="Avatar Image">
       <h1>SoftBlog</h1>
-      <form>
+      <form method="post" action="index.php">
         <!-- USERNAME INPUT -->
         <label for="username">Email</label>
-        <input type="text" placeholder="Alguien@softblog.com">
+        <input type="text" name = "txtEmail" placeholder="Alguien@softblog.com">
         <!-- PASSWORD INPUT -->
         <label for="password">Contraseña</label>
-        <input type="password" placeholder="Escribe La Contraseña">
+        <input type="password" name = "txtPassword" placeholder="Escribe La Contraseña">
         <input type="submit" value="Iniciar Sesión">
         <a href="#">Resgistrarse</a>
       </form>
     </div>
+	<div class="container">
+		<?=$mensaje;?>
+	</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
 </body>
 </html>
