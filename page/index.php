@@ -1,7 +1,7 @@
 <?php
 $mensaje = null;
 if ($_SERVER["REQUEST_METHOD"] == "POST"):
-    include 'conexionBD.php';
+    include '../otros/conexionBD.php';
     $contraEncriptada = md5($_REQUEST['txtPassword']);
     $sql = "select * from Usuarios where Email = ? and password = ?;";
     $datos = $conexion->prepare($sql);
@@ -30,13 +30,13 @@ endif;
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SoftBlog</title>
-    <link rel="icon" type="image/png" href="img/favicon.png">
-    <link rel="stylesheet" href="master.css">
+    <link rel="icon" type="image/png" href="../img/favicon.png">
+    <link rel="stylesheet" href="../css/estyle.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
 </head>
 <body>
     <div class="login-box">
-      <img src="img/logo.png" class="avatar" alt="Avatar Image">
+      <img src="../img/logo.png" class="avatar" alt="Avatar Image">
       <h1>SoftBlog</h1>
       <form method="post" action="index.php">
         <!-- USERNAME INPUT -->
