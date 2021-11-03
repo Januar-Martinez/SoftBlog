@@ -24,7 +24,7 @@
                     <i class='fas fa-bars'></i>
                 </label>
                 <a href='#' class='enlace'>
-                    <img src='../img/img_Menú.jpeg' alt='' class='logo'>
+                    <h1 style='color:#b80f22; margin-top:20px;'>SoftBlog</h1>
                 </a>
                 <ul>
                     <li><a class='active' href='#'>Inicio</a></li>

@@ -46,7 +46,7 @@ endif;
         <label for="password">Contraseña</label>
         <input type="password" name = "txtPassword" placeholder="Escribe La Contraseña">
         <input type="submit" value="Iniciar Sesión">
-        <a href="#">Resgistrarse</a>
+        <a href="registrarse.php">Resgistrarse</a>
       </form>
     </div>
 	<div class="container">
