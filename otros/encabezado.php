@@ -18,6 +18,7 @@
 //var_dump ($_SESSION);
     if(isset($_SESSION['emailUsuario'])):
         echo"
+
             <nav>
                 <input type='checkbox' id='check'>
                 <label for='check' class='checkbtn'>
@@ -34,17 +35,18 @@
                     <li><a href='#'>Acerca de</a></li>
                 </ul>
             </nav>
-            <section>
-                <div class='wrapper'>
-                    <div class='sidebar'>
-                        <h2>";?> <?= $_SESSION['usuario']?> <?php echo" </h2>
-                        <h6>";?> <?= $_SESSION['emailUsuario']?> <?php echo"</h6>
-                        <div class='social_media'>
-                            <a href='../otros/cerrarSesion.php'><i class='fas fa-sign-out-alt'></i></i></a>
-                        </div>
+
+            <div class='wrapper'>
+                <div class='sidebar'>
+                    <h2>";?> <?= $_SESSION['usuario']?> <?php echo" </h2>
+                    <h6>";?> <?= $_SESSION['emailUsuario']?> <?php echo"</h6>
+                    <div class='social_media'>
+                        <a href='../otros/cerrarSesion.php'><i class='fas fa-sign-out-alt'></i></i></a>
                     </div>
                 </div>
-            </section>
+            
+                <div class='main_content'>
+                    <div class='info'>
         ";
     else:
 		echo "
@@ -55,5 +57,3 @@
 		exit;
     endif;
 ?>
-</body>
-</html>
