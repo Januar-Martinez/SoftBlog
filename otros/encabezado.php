@@ -10,7 +10,8 @@
     <title>SoftBlog</title>
     <link rel="icon" type="image/png" href="../img/favicon.png">
     <link rel="stylesheet" href="../css/master.css">
-    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="../css/estyle.css">
+    <link rel="stylesheet" href="../css/estiloT.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
