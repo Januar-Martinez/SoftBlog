@@ -11,7 +11,8 @@
     <link rel="icon" type="image/png" href="../img/favicon.png">
     <link rel="stylesheet" href="../css/master.css">
     <link rel="stylesheet" href="../css/estyle.css">
-    <link rel="stylesheet" href="../css/estiloT.css">
+    <link rel="stylesheet" href="../css/estyleT.css">
+    <link rel="stylesheet" href="../css/estiloM.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
