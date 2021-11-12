@@ -6,7 +6,7 @@
     "
         <center>
         <div>
-            <textarea name='txtpregunta' id='' autofocus readonly required>La propiedad CSS padding establece el espacio de relleno requerido por todos los lados de un elemento. El área de padding es el espacio entre el contenido del elemento y su borde (border). No se permiten valores negativos.</textarea>
+            <textarea name='txtpregunta' id='txtpregunta' autofocus readonly required></textarea>
         </div>
         <div class='boton-modal'>
         <label for='btn-modal'>
@@ -18,7 +18,7 @@
         <div class='container-modal'>
             <div class='content-modal'>
                 <h2>Pregunta</h2>
-                <p>La propiedad CSS padding establece el espacio de relleno requerido por todos los lados de un elemento. El área de padding es el espacio entre el contenido del elemento y su borde (border). No se permiten valores negativos.</p>
+                <p></p>
                 <div class='btn-cerrar'>
                     <label for='btn-modal'>Cerrar</label>
                 </div>

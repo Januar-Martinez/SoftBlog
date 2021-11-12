@@ -30,11 +30,8 @@
                     <h1 style='color:#b80f22; margin-top:20px;'>SoftBlog</h1>
                 </a>
                 <ul>
-                    <li><a class='active' href='#'>Inicio</a></li>
-                    <li><a href='#'>Preguntar</a></li>
-                    <li><a href='#'>Tus Preguntas</a></li>
-                    <li><a href='#'>...</a></li>
-                    <li><a href='#'>Acerca de</a></li>
+                    <li><a class='active' href='../page/inicio.php'>Inicio</a></li>
+                    <li><a href='../page/pregunta.php'>Nueva Preguntas</a></li>
                 </ul>
             </nav>
 
