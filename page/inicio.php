@@ -25,6 +25,12 @@
             </div>
             <label for='btn-modal' class='cerrar-modal'></label>
         </div>
+        </div>
+
+        <div id='info'>
+            <h1>";?> <?= $_SESSION['usuario']?> <?php echo" </h1>
+            <p>";?> <?= $_SESSION['emailUsuario']?> <?php echo" </p>
+        </div>
     ";
 
 

@@ -191,10 +191,17 @@ textarea{
 }
 #imagen{
     margin: 10px;
+    height: 400px;
+}
+#imagen:hover{
+    height: 410px;
+    transition: all 0.2s;
 }
 @media (max-width: 858px){
     #imagen{
         width: 80%;
         margin: 10px;
+        height: 200px;
     }
 }
+

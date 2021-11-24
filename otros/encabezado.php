@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SoftBlog</title>
-    <link rel="stylesheet" href="../css/estyle.css">
+    <link rel="stylesheet" href="../css/estilos.css">
     <link rel="icon" type="image/png" href="../img/favicon.png">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 </head>
@@ -32,11 +32,13 @@
             </ul>
         </nav>
         <div id='contenido'>
-            <div>
+            <div'>
                 <center>
-                    <img id='imagen' src='../img/fondo_index.jpeg' alt=''>
+                    <img id='imagen' src='../img/info.jpeg' alt=''>
                 </center>
             <div>
+            <div id='pagina'>
+                <div>
         ";
     else:
 		echo "
