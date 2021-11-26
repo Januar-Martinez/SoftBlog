@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SoftBlog</title>
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/estyle.css">
     <link rel="icon" type="image/png" href="../img/favicon.png">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 </head>
@@ -22,11 +22,11 @@
             <label for='check' class='checkbtn'>
                 <i class='fas fa-bars'></i>
             </label>
-            <a href='#' class='enlace'>
+            <a href='../page/inicio.php' class='enlace'>
                 <h1>SoftBlog</h1>
             </a>
             <ul>
-                <li><a class='' href='../page/inicio.php'>Inicio</a></li>
+                <li><a class='' href='../page/usuario.php'>Usuario</a></li>
                 <li><a href='../page/pregunta.php'>Nueva Preguntas</a></li>
                 <li><a href='../otros/cerrarSesion.php'><i class='fas fa-sign-out-alt'></i></i></a></li>
             </ul>
@@ -37,8 +37,6 @@
                     <img id='imagen' src='../img/info.jpeg' alt=''>
                 </center>
             <div>
-            <div id='pagina'>
-                <div>
         ";
     else:
 		echo "
