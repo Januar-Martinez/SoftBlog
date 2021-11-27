@@ -19,6 +19,14 @@
             <div class='content-modal'>
                 <h2>Pregunta</h2>
                 <p></p>
+                <form action='../otros/nuevaPregunta.php' method='POST'>
+                    <div>
+                        <textarea name='txtrespuesta' id='txtrespuesta' placeholder='Ingrese su Respuesta' required></textarea>
+                    </div>
+                    <div>
+                        <button type='submit'>Responder</button>
+                    </div>
+                </form>
                 <div class='btn-cerrar'>
                     <label for='btn-modal'>Cerrar</label>
                 </div>
