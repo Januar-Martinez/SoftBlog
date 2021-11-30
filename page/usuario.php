@@ -1,5 +1,5 @@
 <?php
-    session_start();
+  include '../otros/encabezado.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">

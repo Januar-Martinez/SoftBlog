@@ -2,11 +2,22 @@
     include '../otros/conexionBD.php';
     include '../otros/encabezado.php';
 
+    $sqlmax= "select MAX(pregunta) FROM pregunta;";
+    $datos = $conexion ->query($sqlmax) or die("error interno");
+    $fila = $datos->fetch_array();
+    $ultimaPregunta= $fila[0];
+
     echo
     "
+        <div'>
+            <center>
+                <img id='imagen' src='../img/info.jpeg' alt=''>
+                <h1 style='padding: 10px'>Ultima Pregunta</h1>
+            </center>
+        <div>
         <center>
         <div>
-            <textarea name='txtpregunta' id='txtpregunta' autofocus readonly required></textarea>
+            <textarea name='txtpregunta' id='txtpregunta' autofocus readonly required>$ultimaPregunta</textarea>
         </div>
         <div class='boton-modal'>
         <label for='btn-modal'>
@@ -18,8 +29,8 @@
         <div class='container-modal'>
             <div class='content-modal'>
                 <h2>Pregunta</h2>
-                <p></p>
-                <form action='../otros/nuevaPregunta.php' method='POST'>
+                <p>$ultimaPregunta</p>
+                <form action='../otros/ultimaRespuesta.php' method='POST'>
                     <div>
                         <textarea name='txtrespuesta' id='txtrespuesta' placeholder='Ingrese su Respuesta' required></textarea>
                     </div>

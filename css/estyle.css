@@ -133,6 +133,7 @@ li a.active, li a:hover{
 }
 .content-modal p{
     padding: 15px 0px;
+    color: #fff;
     border-top: 1px solid #fff;
     border-bottom: 1px solid #fff;
 }
@@ -188,6 +189,7 @@ textarea{
     resize: none;
     border: none;
     width: 90%;
+    height: 100px;
     text-align: center;
     font-size: 20px;
 }
