@@ -11,7 +11,7 @@
     "
         <div'>
             <center>
-                <img id='imagen' src='../img/info.jpeg' alt=''>
+                <a href='preguntas&respuestas.php'><img id='imagen' src='../img/info.jpeg' alt=''></a>
                 <h1 style='padding: 10px'>Ultima Pregunta</h1>
             </center>
         <div>
