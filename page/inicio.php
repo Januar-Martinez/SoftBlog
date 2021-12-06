@@ -2,16 +2,21 @@
     include '../otros/conexionBD.php';
     include '../otros/encabezado.php';
 
-    $sqlmax= "select MAX(pregunta) FROM pregunta;";
+    $sqlmax= "select MAX(idPregunta) FROM pregunta;";
     $datos = $conexion ->query($sqlmax) or die("error interno");
     $fila = $datos->fetch_array();
-    $ultimaPregunta= $fila[0];
+    $idPregunta= $fila[0];
+
+    $sql= "select pregunta from pregunta where idPregunta = $idPregunta;";
+    $datos2 = $conexion ->query($sql) or die("error interno");
+    $fila2 = $datos2->fetch_array();
+    $ultimaPregunta= $fila2[0];
 
     echo
     "
         <div'>
             <center>
-                <a href='preguntas&respuestas.php'><img id='imagen' src='../img/info.jpeg' alt=''></a>
+                <a href='preguntas.php'><img id='imagen' src='../img/info.jpeg' alt=''></a>
                 <h1 style='padding: 10px'>Ultima Pregunta</h1>
             </center>
         <div>

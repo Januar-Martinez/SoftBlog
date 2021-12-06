@@ -225,3 +225,11 @@ textarea{
         height: 200px;
     }
 }
+#preguntas{
+    margin: 10px;
+    display: inline-block;
+    line-height: 50px;
+}
+#preguntas form{
+    display: inline;
+}
