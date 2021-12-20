@@ -6,6 +6,7 @@
     list-style: none;
     box-sizing: border-box;
 }
+/* Menú */
 nav{
     background: white;
     height: 50px;
@@ -50,44 +51,6 @@ li a.active, li a:hover{
 }
 #check{
     display: none;
-}
-@media (max-width: 952px){
-    .enlace{
-        padding-left: 20px;
-    }
-    nav ul li a{
-        font-size: 16px;
-    }
-}
-@media (max-width: 858px){
-    .checkbtn{
-        display: block;
-    }
-    ul{
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        background: #2c3e50;
-        top: 80px;
-        left: -100%;
-        text-align: center;
-        transition: all .5s;
-    }
-    nav ul li{
-        display: block;
-        margin: 50px 0;
-        line-height: 30px;
-    }
-    nav ul li a{
-        font-size: 20px;
-    }
-    li a:hover, li a.active{
-        background: none;
-        color: red;
-    }
-    #check:checked ~ ul{
-        left:0;
-    }
 }
 .boton-modal{
     padding: 10px;
@@ -180,11 +143,6 @@ li a.active, li a:hover{
     top:0; left: 0;
     z-index: -1;
 }
-@media screen and (max-width:800px) {
-    .content-modal{
-        width: 90%;
-    }
-}
 textarea{
     resize: none;
     border: none;
@@ -218,13 +176,6 @@ textarea{
     height: 410px;
     transition: all 0.2s;
 }
-@media (max-width: 858px){
-    #imagen{
-        width: 80%;
-        margin: 10px;
-        height: 200px;
-    }
-}
 #preguntas{
     margin: 10px;
     display: inline-block;
@@ -232,4 +183,54 @@ textarea{
 }
 #preguntas form{
     display: inline;
+}
+@media (max-width: 952px){
+    .enlace{
+        padding-left: 20px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+@media (max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    li a:hover, li a.active{
+        background: none;
+        color: red;
+    }
+    #check:checked ~ ul{
+        left:0;
+    }
+}
+@media screen and (max-width:800px) {
+    .content-modal{
+        width: 90%;
+    }
+}
+@media (max-width: 858px){
+    #imagen{
+        width: 80%;
+        margin: 10px;
+        height: 200px;
+    }
 }

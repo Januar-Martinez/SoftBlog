@@ -24,7 +24,7 @@
     while($fila = $datos->fetch_array()):
         echo"
         <div>
-            <p style='padding: 10px'>$i) $fila[respuesta]</p>
+            <p style='padding: 10px'><b>$i)</b> $fila[respuesta]</p>
         </div>
         ";
         $i++;
