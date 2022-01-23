@@ -4,10 +4,10 @@
     
     echo 
     "
-    <center>
+    <center style='margin-top:55px;'>
     <form action='../otros/nuevaPregunta.php' method='POST'>
         <div>
-            <textarea name='txtpregunta' id='txtpregunta' placeholder='Ingrese su Pregunta' autofocus required></textarea>
+            <textarea name='txtpregunta' id='txtpregunta' placeholder='¿Tienes Algo Que Consultar?' autofocus required></textarea>
         </div>
         <div>
             <button id='boton' type='submit'>Hacer Pregunta</button>

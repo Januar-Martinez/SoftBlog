@@ -8,7 +8,7 @@
 }
 /* Menú */
 nav{
-    background: white;
+    background: #f5f3f3ee;
     height: 50px;
     width: 100%;
 }
@@ -54,7 +54,7 @@ li a.active, li a:hover{
 }
 .boton-modal{
     padding: 10px;
-    background-color: #fff;
+    background-color: #f5f3f3ee;
 }
 .boton-modal label{
     padding: 10px 15px;
@@ -144,6 +144,7 @@ li a.active, li a:hover{
     z-index: -1;
 }
 textarea{
+    background-color: #f5f3f3ee;
     resize: none;
     border: none;
     width: 90%;

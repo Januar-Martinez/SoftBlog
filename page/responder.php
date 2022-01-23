@@ -11,9 +11,9 @@
     "
     <center>
     <h9>La pregunta es: $pregunta</h9>
-    <form action='../otros/nuevaRespuesta.php' method='POST'>
+    <form action='../otros/nuevaRespuesta.php' method='POST' style='margin-top:55px;'>
         <div>
-            <textarea name='txtRespuesta' id='txtRespuesta' placeholder='Ingrese su Respuesta' autofocus required></textarea>
+            <textarea name='txtRespuesta' id='txtRespuesta' placeholder='¿Tienes La Solución A Esta Consulta?' autofocus required></textarea>
         </div>
         <input type ='hidden' name='txtIdPregunta' value = $_REQUEST[txtIdPregunta]>
         <div>

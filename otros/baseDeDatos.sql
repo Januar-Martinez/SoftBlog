@@ -17,7 +17,8 @@ create table respuesta(
 idPregunta int,
 idRespuesta int,
 respuesta varchar(500),
+primary key(idPregunta,idRespuesta),
 foreign key(idPregunta) references pregunta(idPregunta)
 );
-insert into Usuarios values (1, 'Juanito Martinez', 'juanito123@softblog.com', md5(123456)),
-							(2, 'Januar Martinez', 'januar19@softblog.com', md5(119323));
+insert into pregunta values(1, '¿Qué es SoftBlog?');
+insert into respuesta values(1,1, 'SoftBlog es un sitio web en el que se puede compartir el conocimento de la programación de software');

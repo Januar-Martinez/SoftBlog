@@ -34,7 +34,7 @@ endif;
     <link rel="stylesheet" href="../css/estiloIndex.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
 </head>
-<body>
+<body style="background-color: #f5f3f3ee;">
     <div class="login-box">
       <img src="../img/logo.png" class="avatar" alt="Avatar Image">
       <h1>SoftBlog</h1>
